@@ -131,8 +131,8 @@ DIVIDE([Total Revenue], [Total Marketing Spend], 0)
 Marketing Cost per Car = 
 DIVIDE([Total Marketing Spend], [Total Units Sold], 0)
 ```
-#📊 6. Dashboard Breakdown & Key Insights
-##Page 1: OVERVIEW — Executive Revenue & Regional Performance
+## 📊 6. Dashboard Breakdown & Key Insights
+## Page 1: OVERVIEW — Executive Revenue & Regional Performance
 Visuals Included: KPI Cards (Total Revenue, Total Units, Total Models, Unit Growth (YOY)), Top 5 Bar Chart (Global Revenue Distribution), Area Chart (Annual Revenue Performance Trend), Donut Chart (Revenue Share by Vehicle Category), Top 5 Clustered Column Chart (Top 5 Revenue-Generating Models), and Date Hierarchy Slicer.
 
 Key Insights:
@@ -147,7 +147,7 @@ Balanced Category Revenue Split: Revenue is evenly diversified across segments, 
 
 Annual Trajectory & 2024 Rebound: After peaking in 2015 ($5.79B) and experiencing cyclical dips in 2016 ($3.98B) and 2023 ($4.41B), annual revenue surged +16.84% YoY in 2024 to $5.16B, driven by a +19.99% YoY jump in units sold (from 57,036 in 2023 to 68,440 in 2024).
 
-##Page 2: Product & Engine Analysis — Powertrain Shift & Unit Economics
+## Page 2: Product & Engine Analysis — Powertrain Shift & Unit Economics
 Visuals Included: KPI Cards (Top Model (Units), % Unit Share, Revenue per Unit, Average Price), Scatter Plot (Price vs. Volume Positioning Matrix), Funnel Chart (Sales Volume by Engine Type), Top 5 Clustered Column Chart (Retail Network Reach per Model), and 100% Stacked Area Chart (Powertrain Adoption Roadmap).
 
 Key Insights:
@@ -166,7 +166,7 @@ By 2024, Electric unit share nearly doubled to 34.68% (more than 1 in 3 vehicles
 
 Retail Network Reach: The 3 Series (115 active market-month allocations), 7 Series (107), i4 (107), X3 (105), and X5 / i7 (102) enjoy the broadest retail distribution frequency across global dealerships.
 
-##Page 3: Marketing & Market Strategy — Budget Allocation & ROI
+## Page 3: Marketing & Market Strategy — Budget Allocation & ROI
 Visuals Included: KPI Cards (Total Revenue, Total Marketing Spend, MARKETING EFFECIENCY RATIO, Marketing Cost per Car), Scatter Chart (Marketing Efficiency vs. Revenue Yield), Top 5 Column Chart (Budget Allocation by Product Line), Top 5 Bar Chart (Regional Marketing Investment), and Marketing Spend Trend Area Chart.
 
 Key Insights:
@@ -185,5 +185,5 @@ Top 5 Regional Marketing Spend: China ($32.28M), UK ($29.63M), Brazil ($29.33M),
 
 Regional Efficiency: China (188.12x MER) and the UK (185.21x MER) pair high investment with top-tier efficiency. In contrast, Canada absorbed $27.83M in marketing spend (6th highest) but generated the lowest revenue ($4.10B) and the lowest MER globally at 147.36x ($497.35 marketing cost per car).
 
-#💡 7. Strategic Business Recommendations
+## 💡 7. Strategic Business Recommendations
 PriorityAreaData-Backed FindingActionable RecommendationExpected Business Impact1. Reallocate Model Marketing Budgets3 Series consumes the #1 budget ($34.36M) at the lowest MER (153.72x), while X3 (193.88x) and iX (186.21x) are under-indexed in ad spend relative to yield.Shift 15%–20% ($5M–$6.8M) of the 3 Series and 7 Series marketing budgets toward high-MER growth models (X3, iX, and i4).Lifts portfolio-wide MER from 171.6x toward ~180x+ without increasing total ad spend.2. Optimize Regional Ad Spend in North AmericaCanada has the lowest MER globally (147.36x, $27.83M spend for $4.10B revenue), while the USA receives the lowest marketing spend ($24.68M) despite higher MER (168.62x) and higher average selling prices.Audit Canadian campaign channels to reduce customer acquisition cost from $497/car toward the global benchmark ($441/car), and redeploy surplus budget into high-margin USA, France, and UK campaigns.Improves North American regional ROAS and captures untapped volume in the US market.3. Accelerate EV & Hybrid Inventory in Top MarketsElectric share surged from 18.89% (2015) to 34.68% (2024), while Diesel fell to 17.47%; i4 is already the #2 revenue model globally ($5.34B).Phase down Diesel dealership allocations by 25%+ in 2025–2026 and expand i4, i7, and iX showroom inventory across top-performing markets (China, UK, France).Aligns supply chain and dealership stock with the 59% electrified (EV + Hybrid) demand trend.4. Expand Dealership Footprint for High-Margin ModelsX7 generates the highest realized revenue per unit ($79,395) and iX delivers the 2nd highest MER (186.21x), but both have the lowest dealership distribution frequency (90 and 81 records vs. 115 for 3 Series).Increase flagship dealership allocations for the X7 and iX in high-net-worth territories (China, UK, USA, Germany).Captures high-margin luxury SUV/EV demand and raises overall portfolio Revenue per Unit.5. Data Governance & Pipeline StandardizationRaw dataset contains zero-variance macro columns (fuel_price_usd, gdp_growth_percent, interest_rate_percent) and cross-labeled segment/engine_type records.Implement an automated Power Query validation table (DimModel & DimMacro) to enforce strict 1-to-1 model-to-segment mapping and ingest live macroeconomic APIs by country-year.Eliminates synthetic data noise and enables true econometric elasticity modeling in future releases.
